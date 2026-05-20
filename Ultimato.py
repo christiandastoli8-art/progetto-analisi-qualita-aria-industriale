@@ -79,7 +79,7 @@ else:
     tema_grafici = st.sidebar.radio("Testi Grafici:", ["Chiari (Dark Mode)", "Scuri (Light Mode)"])
 
     st.sidebar.divider()
-    if st.sidebar.button("Disconetti"):
+    if st.sidebar.button("Disconnetti"):
         st.session_state["autenticato"] = False  
         st.rerun() 
 
