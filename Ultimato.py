@@ -97,7 +97,7 @@ else:
         st.header("Statistiche Generali", anchor = False)
         st.success("Sistema sbloccato. Accesso ai dati consentito.")
         
-        with st.expander("Visualizza Log di Sitema"):
+        with st.expander("Visualizza Log di Sistema"):
             if report_anomalie:
                 for anomalia in report_anomalie:
                     st.warning(anomalia)
