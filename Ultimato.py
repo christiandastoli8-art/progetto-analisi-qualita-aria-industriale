@@ -29,7 +29,7 @@ if not st.session_state["autenticato"]:
             pulsante_accesso = st.form_submit_button("LOGIN", width = 'stretch')
 
             if pulsante_accesso:
-                if password_inserita == "abc":
+                if password_inserita == "Facciamo30?":
                     st.session_state["autenticato"] = True 
                     st.rerun()
                 elif password_inserita != "": 
